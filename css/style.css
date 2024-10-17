@@ -70,3 +70,36 @@ header{
     color: #fff;
     text-transform: uppercase;
 }
+/* YAZILIMLAR */
+.innersoftware{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.innersoftware .innersoftware_child{
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.600);
+    border-radius: 7px;
+    border:1px solid transparent;
+    transition: all .5s ease-in;
+}
+.innersoftware .innersoftware_child:hover{
+    border: 1px solid #24CAAC;
+}
+.innersoftware_child .icon{
+    font-size: 25px;
+    color: #24CAAC;
+}
+.innersoftware_child h3{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.innersoftware_child p{
+    font-size: 16px;
+    
+}
