@@ -23,19 +23,19 @@ section{
     padding: 100px 0;
     background: #122e44;
 }
-.section_title{
+ .section_title{
     margin-bottom: 30px;
-}
+} 
 .section_title h2{
     position: relative;
     text-align: center;
     color: #fff;
     font-size: 30px;
     transition: all .5s ease-in-out;
-}
-.section_title h2:hover{
+} 
+ .section_title h2:hover{
     background-color: #24CAAC;
-}
+} 
 /* HEADER */
 
 header{
@@ -70,6 +70,43 @@ header{
     color: #fff;
     text-transform: uppercase;
 }
+/* ANASAYFA */
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+.inner_anasayfa .child_anasayfa{
+    flex-basis: 45%;
+}
+.child_anasayfa h1{
+    font-size: 50px;
+    color: #24CAAC;
+}
+.span_child{
+    color: #a74070;
+}
+.child_anasayfa p{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.child_anasayfa .btn{
+    background: #24CAAC;
+    padding: 12px 27px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #24CAAC;
+    transition: all .5s ease-in-out;
+    font-weight: 700;
+    cursor: pointer;
+}
+.child_anasayfa .btn:hover{
+    background: transparent;
+    letter-spacing: 2px;
+}
 /* YAZILIMLAR */
 .innersoftware{
     display: flex;
@@ -101,5 +138,4 @@ header{
 }
 .innersoftware_child p{
     font-size: 16px;
-    
 }
