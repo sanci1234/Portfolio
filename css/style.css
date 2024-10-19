@@ -139,3 +139,41 @@ header{
 .innersoftware_child p{
     font-size: 16px;
 }
+/* SERTFİKALARIM */
+
+.inner_courses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.inner_courses .courses_img{
+    margin-bottom: 15px;
+}
+.inner_courses .child_courses{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+}
+.child_courses:hover{
+    border: 1px solid #24CAAC;
+}
+.child_courses .detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.child_courses .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    /* gap:16px; */
+}
+.child_courses .detail ul li{
+    color: gold;
+}
