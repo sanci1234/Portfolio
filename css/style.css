@@ -264,3 +264,53 @@ header{
 .test_highlight:hover{
     text-decoration: underline;
 }
+
+/* İLETİŞİM */
+
+.inner_context{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+.child_context{
+    flex-basis: 45%;
+}
+.child_context form{
+    padding: 50px 40px;
+    background: #2F363E;
+    border-radius: 5px
+}
+.child_context form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #24292d;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .5s ease-in;
+}
+.child_context form input,textarea:focus{
+    color: #fff;
+    
+}
+.child_context form input:focus{
+    letter-spacing: 1px;
+}
+.child_context form textarea:focus{
+    letter-spacing: 1px;
+}
+
+.child_context form input:last-child{
+    margin-bottom: 0;
+    background: #24CAAC;
+    border: 1px solid #24CAAC;
+    transition: .3s;
+}
+.child_context form input:last-child:hover{
+    background: transparent;
+    color: #fff;
+}
